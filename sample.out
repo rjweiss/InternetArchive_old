@@ -1,0 +1,35 @@
+> db.congressmen.findOne()
+{
+        "_id" : ObjectId("50d1dc9e1d41c8337d82df0c"),
+        "snip" : "\nof running on that same\nphilosophy there.\n>> i know <em>sherrod</em> <em>brown</em> a little\nbit.\nhe is a sparring partner",
+        "thumb" : "//archive.org/download/FOXNEWSW_20121014_033000_FOX_News_Watch/FOXNEWSW_20121014_033000_FOX_News_Watch.thumbs/FOXNEWSW_20121014_033000_FOX_News_Watch_001287.jpg",
+        "title" : "FOX News Watch : FOXNEWSW : October 13, 2012 8:30pm-9:00pm PDT",
+        "topic" : [
+                "romney",
+                "obama",
+                "sherrod brown",
+                "paul",
+                "kim",
+                "china",
+                "virginia",
+                "ohio",
+                "brown",
+                "mandel",
+                "florida",
+                "josh mandel",
+                "barack obama",
+                "joe biden",
+                "whiten",
+                "obama administration",
+                "romney",
+                "texas",
+                "oklahoma",
+                "pennsylvania",
+                "paul"
+        ],
+        "start" : "1295",
+        "video" : "http://archive.org/download/FOXNEWSW_20121014_033000_FOX_News_Watch/FOXNEWSW_20121014_033000_FOX_News_Watch.mp4?t=1295/1325&ignore=x.mp4",
+        "congressman" : "Sherrod Brown",
+        "rownum" : 1,
+        "identifier" : "FOXNEWSW_20121014_033000_FOX_News_Watch"
+}
