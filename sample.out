@@ -33,3 +33,21 @@
         "rownum" : 1,
         "identifier" : "FOXNEWSW_20121014_033000_FOX_News_Watch"
 }
+
+#db.congressmen.group(
+	#{key : 
+	#	{'congressman':true}, 
+	#	initial: {sum:0}, 
+	#	reduce: function(doc, prev) 
+	#		{prev.sum +=1}
+	#}
+#)
+
+db.congressmen.distinct('congressman')
+	
+#db.congressmen.aggregate(
+#	{ $group : {
+#		_id : "$congressman",
+#		sum : { $sum : 1}
+#	}}
+#)

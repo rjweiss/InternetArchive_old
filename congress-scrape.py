@@ -12,9 +12,6 @@ def main():
 	with open('legislators-current.yaml','r') as stream:
 		congress = yaml.load(stream)
 
-	#congressmen = [person['name']['first'] + ' ' + person['name']['last'] for person in congress]
-	#congressmen = [person['name']['official_full'] for person in congress]#
-
 	congressmen = []
 	for person in congress:
 		name = person['name']['first'] + ' ' + person['name']['last']

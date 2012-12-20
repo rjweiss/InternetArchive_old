@@ -559,3 +559,48 @@ Wed Dec 19 22:28:01 [conn39] command archive.$cmd command: { group: { key: { con
 } } } ntoreturn:1 reslen:1132 496ms
 Wed Dec 19 22:28:01 [conn39] end connection 127.0.0.1:40127
 Wed Dec 19 22:28:14 [clientcursormon] mem (MB) res:89 virt:850 mapped:80
+Wed Dec 19 22:29:02 [initandlisten] connection accepted from 127.0.0.1:40156 #40
+Wed Dec 19 22:29:03 [conn40] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 915ms
+Wed Dec 19 22:29:03 [conn40] end connection 127.0.0.1:40156
+Wed Dec 19 22:30:01 [initandlisten] connection accepted from 127.0.0.1:40188 #41
+Wed Dec 19 22:30:01 [conn41] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 517ms
+Wed Dec 19 22:30:01 [conn41] end connection 127.0.0.1:40188
+Wed Dec 19 22:31:01 [initandlisten] connection accepted from 127.0.0.1:40214 #42
+Wed Dec 19 22:31:02 [conn42] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 452ms
+Wed Dec 19 22:31:02 [conn42] end connection 127.0.0.1:40214
+Wed Dec 19 22:32:01 [initandlisten] connection accepted from 127.0.0.1:40237 #43
+Wed Dec 19 22:32:02 [conn43] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 472ms
+Wed Dec 19 22:32:02 [conn43] end connection 127.0.0.1:40237
+Wed Dec 19 22:33:01 [initandlisten] connection accepted from 127.0.0.1:40264 #44
+Wed Dec 19 22:33:01 [conn44] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 477ms
+Wed Dec 19 22:33:01 [conn44] end connection 127.0.0.1:40264
+Wed Dec 19 22:33:14 [clientcursormon] mem (MB) res:63 virt:850 mapped:80
+Wed Dec 19 22:34:01 [initandlisten] connection accepted from 127.0.0.1:40292 #45
+Wed Dec 19 22:34:02 [conn45] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 434ms
+Wed Dec 19 22:34:02 [conn45] end connection 127.0.0.1:40292
+Wed Dec 19 22:35:01 [initandlisten] connection accepted from 127.0.0.1:40321 #46
+Wed Dec 19 22:35:02 [conn46] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 719ms
+Wed Dec 19 22:35:02 [conn46] end connection 127.0.0.1:40321
+Wed Dec 19 22:35:14 [clientcursormon] mem (MB) res:74 virt:850 mapped:80
+Wed Dec 19 22:35:46 [conn25] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 907ms
+Wed Dec 19 22:36:01 [initandlisten] connection accepted from 127.0.0.1:40350 #47
+Wed Dec 19 22:36:02 [conn47] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 526ms
+Wed Dec 19 22:36:02 [conn47] end connection 127.0.0.1:40350
