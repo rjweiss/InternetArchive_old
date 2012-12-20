@@ -1,0 +1,107 @@
+MongoDB shell version: 2.0.4
+connecting to: archive
+[
+	{
+		"congressman" : "Sherrod Brown",
+		"sum" : 1331
+	},
+	{
+		"congressman" : "Maria Cantwell",
+		"sum" : 194
+	},
+	{
+		"congressman" : "Benjamin Cardin",
+		"sum" : 62
+	},
+	{
+		"congressman" : "Thomas Carper",
+		"sum" : 18
+	},
+	{
+		"congressman" : "Robert Casey",
+		"sum" : 473
+	},
+	{
+		"congressman" : "Bob Corker",
+		"sum" : 1219
+	},
+	{
+		"congressman" : "Dianne Feinstein",
+		"sum" : 4031
+	},
+	{
+		"congressman" : "Orrin Hatch",
+		"sum" : 2426
+	},
+	{
+		"congressman" : "Amy Klobuchar",
+		"sum" : 263
+	},
+	{
+		"congressman" : "Claire McCaskill",
+		"sum" : 2331
+	},
+	{
+		"congressman" : "Robert Menendez",
+		"sum" : 446
+	},
+	{
+		"congressman" : "Bill Nelson",
+		"sum" : 3278
+	},
+	{
+		"congressman" : "Bernard Sanders",
+		"sum" : 16
+	},
+	{
+		"congressman" : "Debbie Stabenow",
+		"sum" : 374
+	},
+	{
+		"congressman" : "Jon Tester",
+		"sum" : 262
+	},
+	{
+		"congressman" : "Sheldon Whitehouse",
+		"sum" : 246
+	},
+	{
+		"congressman" : "John Barrasso",
+		"sum" : 383
+	},
+	{
+		"congressman" : "Roger Wicker",
+		"sum" : 109
+	},
+	{
+		"congressman" : "Lamar Alexander",
+		"sum" : 1096
+	},
+	{
+		"congressman" : "Max Baucus",
+		"sum" : 956
+	}
+]
+[
+	"Sherrod Brown",
+	"Maria Cantwell",
+	"Benjamin Cardin",
+	"Thomas Carper",
+	"Robert Casey",
+	"Bob Corker",
+	"Dianne Feinstein",
+	"Orrin Hatch",
+	"Amy Klobuchar",
+	"Claire McCaskill",
+	"Robert Menendez",
+	"Bill Nelson",
+	"Bernard Sanders",
+	"Debbie Stabenow",
+	"Jon Tester",
+	"Sheldon Whitehouse",
+	"John Barrasso",
+	"Roger Wicker",
+	"Lamar Alexander",
+	"Max Baucus"
+]
+bye

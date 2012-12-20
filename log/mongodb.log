@@ -1,0 +1,561 @@
+Wed Dec 19 05:34:19 [initandlisten] MongoDB starting : pid=12738 port=27017 dbpath=db/ 64-bit host=ubuntu
+Wed Dec 19 05:34:19 [initandlisten] db version v2.0.4, pdfile version 4.5
+Wed Dec 19 05:34:19 [initandlisten] git version: nogitversion
+Wed Dec 19 05:34:19 [initandlisten] build info: Linux yellow 2.6.24-29-server #1 SMP Tue Oct 11 15:57:27 UTC 2011 x86_64 BOOST_LIB_VERSION=1_46_1
+Wed Dec 19 05:34:19 [initandlisten] options: { dbpath: "db/", logpath: "log/mongodb.log" }
+Wed Dec 19 05:34:19 [initandlisten] journal dir=db/journal
+Wed Dec 19 05:34:19 [initandlisten] recover begin
+Wed Dec 19 05:34:19 [initandlisten] info no lsn file in journal/ directory
+Wed Dec 19 05:34:19 [initandlisten] recover lsn: 0
+Wed Dec 19 05:34:19 [initandlisten] recover db/journal/j._0
+Wed Dec 19 05:34:19 [initandlisten] recover cleaning up
+Wed Dec 19 05:34:19 [initandlisten] removeJournalFiles
+Wed Dec 19 05:34:19 [initandlisten] recover done
+Wed Dec 19 05:34:19 [initandlisten] preallocating a journal file db/journal/prealloc.0
+		83886080/1073741824	7%
+		104857600/1073741824	9%
+		125829120/1073741824	11%
+		209715200/1073741824	19%
+		304087040/1073741824	28%
+		408944640/1073741824	38%
+		440401920/1073741824	41%
+		545259520/1073741824	50%
+		587202560/1073741824	54%
+		849346560/1073741824	79%
+Wed Dec 19 05:35:09 [websvr] admin web console waiting for connections on port 28017
+Wed Dec 19 05:35:09 [initandlisten] waiting for connections on port 27017
+Wed Dec 19 05:35:41 [initandlisten] connection accepted from 127.0.0.1:44636 #1
+Wed Dec 19 05:35:58 [conn1] end connection 127.0.0.1:44636
+Wed Dec 19 05:36:09 [clientcursormon] mem (MB) res:15 virt:627 mapped:0
+Wed Dec 19 05:36:09 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 18ms
+Wed Dec 19 05:36:15 [initandlisten] connection accepted from 127.0.0.1:44637 #2
+Wed Dec 19 05:36:34 [conn2] end connection 127.0.0.1:44637
+Wed Dec 19 05:38:28 [initandlisten] connection accepted from 127.0.0.1:44651 #3
+Wed Dec 19 05:38:35 [FileAllocator] allocating new datafile db/InternetArchive.ns, filling with zeroes...
+Wed Dec 19 05:38:35 [FileAllocator] creating directory db/_tmp
+Wed Dec 19 05:38:35 [FileAllocator] done allocating datafile db/InternetArchive.ns, size: 16MB,  took 0.001 secs
+Wed Dec 19 05:38:35 [FileAllocator] allocating new datafile db/InternetArchive.0, filling with zeroes...
+Wed Dec 19 05:38:37 [FileAllocator] done allocating datafile db/InternetArchive.0, size: 64MB,  took 2.254 secs
+Wed Dec 19 05:38:37 [FileAllocator] allocating new datafile db/InternetArchive.1, filling with zeroes...
+Wed Dec 19 05:38:37 [FileAllocator] done allocating datafile db/InternetArchive.1, size: 128MB,  took 0.018 secs
+Wed Dec 19 05:38:37 [conn3] build index InternetArchive.Congressmen { _id: 1 }
+Wed Dec 19 05:38:37 [conn3] build index done 0 records 0.008 secs
+Wed Dec 19 05:38:37 [conn3] insert InternetArchive.Congressmen 2527ms
+Wed Dec 19 05:38:41 [initandlisten] connection accepted from 127.0.0.1:44653 #4
+Wed Dec 19 05:39:10 [clientcursormon] mem (MB) res:16 virt:820 mapped:80
+Wed Dec 19 05:39:18 [conn4] end connection 127.0.0.1:44653
+Wed Dec 19 05:44:11 [clientcursormon] mem (MB) res:16 virt:820 mapped:80
+Wed Dec 19 05:49:11 [clientcursormon] mem (MB) res:16 virt:820 mapped:80
+Wed Dec 19 05:54:11 [clientcursormon] mem (MB) res:16 virt:820 mapped:80
+Wed Dec 19 05:59:11 [clientcursormon] mem (MB) res:16 virt:820 mapped:80
+Wed Dec 19 06:00:20 [conn3] end connection 127.0.0.1:44651
+Wed Dec 19 06:04:11 [clientcursormon] mem (MB) res:15 virt:820 mapped:80
+Wed Dec 19 06:09:11 [clientcursormon] mem (MB) res:12 virt:820 mapped:80
+Wed Dec 19 06:14:11 [clientcursormon] mem (MB) res:12 virt:820 mapped:80
+Wed Dec 19 06:19:11 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 06:23:54 [initandlisten] connection accepted from 127.0.0.1:44717 #5
+Wed Dec 19 06:24:12 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 06:24:30 [initandlisten] connection accepted from 127.0.0.1:44718 #6
+Wed Dec 19 06:24:45 [conn6] query InternetArchive.system.namespaces nscanned:3 nreturned:3 reslen:158 321ms
+Wed Dec 19 06:25:00 [conn6] end connection 127.0.0.1:44718
+Wed Dec 19 06:28:41 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 06:28:42 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.001 secs
+Wed Dec 19 06:28:42 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 06:28:42 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.099 secs
+Wed Dec 19 06:28:42 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 06:28:42 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.002 secs
+Wed Dec 19 06:28:42 [conn5] build index archive.sherrodbrown { _id: 1 }
+Wed Dec 19 06:28:42 [conn5] build index done 0 records 0.064 secs
+Wed Dec 19 06:28:42 [conn5] insert archive.sherrodbrown 541ms
+Wed Dec 19 06:28:48 [initandlisten] connection accepted from 127.0.0.1:44738 #7
+Wed Dec 19 06:29:11 [conn7] command archive.$cmd command: { count: "sherrodbrown", query: {}, fields: {} } ntoreturn:1 reslen:48 168ms
+Wed Dec 19 06:29:12 [clientcursormon] mem (MB) res:12 virt:980 mapped:160
+Wed Dec 19 06:30:57 [conn7] end connection 127.0.0.1:44738
+Wed Dec 19 06:34:13 [clientcursormon] mem (MB) res:12 virt:980 mapped:160
+Wed Dec 19 06:39:13 [clientcursormon] mem (MB) res:12 virt:980 mapped:160
+Wed Dec 19 06:39:17 [initandlisten] connection accepted from 127.0.0.1:44753 #8
+Wed Dec 19 06:39:23 [conn8] query archive.system.namespaces nscanned:3 nreturned:3 reslen:136 126ms
+Wed Dec 19 06:39:37 [conn8] end connection 127.0.0.1:44753
+Wed Dec 19 06:42:55 [conn5] insert archive.sherrodbrown 109ms
+Wed Dec 19 06:44:15 [clientcursormon] mem (MB) res:12 virt:980 mapped:160
+Wed Dec 19 06:49:16 [clientcursormon] mem (MB) res:12 virt:980 mapped:160
+Wed Dec 19 06:52:56 [conn5] insert archive.sherrodbrown 116ms
+Wed Dec 19 06:52:57 [conn5] end connection 127.0.0.1:44717
+Wed Dec 19 06:53:17 [clientcursormon] mem (MB) res:14 virt:980 mapped:160
+Wed Dec 19 06:53:21 [initandlisten] connection accepted from 127.0.0.1:44785 #9
+Wed Dec 19 06:55:35 [initandlisten] connection accepted from 127.0.0.1:44787 #10
+Wed Dec 19 06:55:37 [conn10] command admin.$cmd command: { listDatabases: 1.0 } ntoreturn:1 reslen:240 158ms
+Wed Dec 19 06:56:15 [conn10] dropDatabase InternetArchive
+Wed Dec 19 06:56:15 [conn10] removeJournalFiles
+Wed Dec 19 06:56:15 [conn10] command InternetArchive.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 reslen:66 651ms
+Wed Dec 19 06:56:20 [conn10] dropDatabase archive
+Wed Dec 19 06:56:20 [conn10] removeJournalFiles
+Wed Dec 19 06:56:23 [conn10] end connection 127.0.0.1:44787
+Wed Dec 19 06:58:17 [clientcursormon] mem (MB) res:12 virt:660 mapped:0
+Wed Dec 19 06:59:34 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 06:59:34 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.008 secs
+Wed Dec 19 06:59:35 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 06:59:35 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.003 secs
+Wed Dec 19 06:59:35 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 06:59:35 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.002 secs
+Wed Dec 19 06:59:35 [conn9] build index archive.sherrodbrown { _id: 1 }
+Wed Dec 19 06:59:35 [conn9] build index done 0 records 0.041 secs
+Wed Dec 19 06:59:35 [conn9] insert archive.sherrodbrown 474ms
+Wed Dec 19 07:00:17 [clientcursormon] mem (MB) res:13 virt:820 mapped:80
+Wed Dec 19 07:00:49 [initandlisten] connection accepted from 127.0.0.1:45020 #11
+Wed Dec 19 07:00:57 [conn11] query archive.system.namespaces nscanned:3 nreturned:3 reslen:136 106ms
+Wed Dec 19 07:01:38 [conn11] end connection 127.0.0.1:45020
+Wed Dec 19 07:02:49 [conn9] end connection 127.0.0.1:44785
+Wed Dec 19 07:03:35 [initandlisten] connection accepted from 127.0.0.1:45095 #12
+Wed Dec 19 07:04:23 [conn12] dropDatabase archive
+Wed Dec 19 07:04:23 [conn12] removeJournalFiles
+Wed Dec 19 07:04:34 [initandlisten] connection accepted from 127.0.0.1:45097 #13
+Wed Dec 19 07:05:19 [clientcursormon] mem (MB) res:13 virt:660 mapped:0
+Wed Dec 19 07:06:58 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 07:06:58 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.001 secs
+Wed Dec 19 07:06:58 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 07:06:58 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.005 secs
+Wed Dec 19 07:06:58 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 07:06:58 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.001 secs
+Wed Dec 19 07:06:58 [conn13] build index archive.congressmen { _id: 1 }
+Wed Dec 19 07:06:58 [conn13] build index done 0 records 0 secs
+Wed Dec 19 07:07:20 [clientcursormon] mem (MB) res:13 virt:820 mapped:80
+Wed Dec 19 07:12:21 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 07:16:41 [conn12] query archive.collection query: { query: {}, orderby: { _id: -1.0 } } ntoreturn:1 scanAndOrder:1 reslen:20 668ms
+Wed Dec 19 07:16:56 [conn12] query archive.congressmen query: { query: {}, orderby: { _id: -1.0 } } ntoreturn:1 nscanned:1 nreturned:1 reslen:1365 235ms
+Wed Dec 19 07:17:23 [clientcursormon] mem (MB) res:8 virt:820 mapped:80
+Wed Dec 19 07:22:24 [clientcursormon] mem (MB) res:7 virt:820 mapped:80
+Wed Dec 19 07:24:50 [conn12] dropDatabase archive
+Wed Dec 19 07:24:50 [conn12] removeJournalFiles
+Wed Dec 19 07:24:50 [conn12] command archive.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 reslen:58 243ms
+Wed Dec 19 07:26:22 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 07:26:22 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.003 secs
+Wed Dec 19 07:26:22 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 07:26:22 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.008 secs
+Wed Dec 19 07:26:22 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 07:26:22 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.016 secs
+Wed Dec 19 07:26:22 [conn13] build index archive.congressmen { _id: 1 }
+Wed Dec 19 07:26:22 [conn13] build index done 0 records 0.129 secs
+Wed Dec 19 07:26:22 [conn13] insert archive.congressmen 364ms
+Wed Dec 19 07:26:24 [clientcursormon] mem (MB) res:24 virt:820 mapped:80
+Wed Dec 19 07:31:24 [clientcursormon] mem (MB) res:8 virt:820 mapped:80
+Wed Dec 19 07:33:33 [conn12] query archive.congressmen ntoreturn:1 nscanned:1 nreturned:1 reslen:1035 140ms
+Wed Dec 19 07:35:26 [conn13] insert archive.congressmen 409ms
+Wed Dec 19 07:36:25 [clientcursormon] mem (MB) res:9 virt:820 mapped:80
+Wed Dec 19 07:38:24 [conn13] insert archive.congressmen 117ms
+Wed Dec 19 07:41:25 [clientcursormon] mem (MB) res:9 virt:820 mapped:80
+Wed Dec 19 07:44:22 [conn13] insert archive.congressmen 217ms
+Wed Dec 19 07:45:00 [conn13] insert archive.congressmen 947ms
+Wed Dec 19 07:45:26 [clientcursormon] mem (MB) res:10 virt:820 mapped:80
+Wed Dec 19 07:50:27 [clientcursormon] mem (MB) res:10 virt:820 mapped:80
+Wed Dec 19 07:52:28 [conn12] command archive.$cmd command: { count: "congressmen", query: {}, fields: {} } ntoreturn:1 reslen:48 103ms
+Wed Dec 19 07:54:48 [conn13] insert archive.congressmen 942ms
+Wed Dec 19 07:55:28 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 08:00:28 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 08:01:42 [conn12] query archive.congressmen ntoreturn:1 nscanned:1 nreturned:1 reslen:1035 130ms
+Wed Dec 19 08:05:30 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 08:10:30 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 08:15:30 [clientcursormon] mem (MB) res:11 virt:820 mapped:80
+Wed Dec 19 08:18:08 [conn13] insert archive.congressmen 135ms
+Wed Dec 19 08:19:22 [conn12] query archive.congressmen query: { congressman: "^Robert" } ntoreturn:1 nscanned:1384 reslen:20 892ms
+Wed Dec 19 08:19:31 [clientcursormon] mem (MB) res:14 virt:820 mapped:80
+Wed Dec 19 08:21:57 [conn12] query archive.congressmen query: { congressman: { $regex: "^Robert" } } ntoreturn:1 nscanned:1499 reslen:20 819ms
+Wed Dec 19 08:22:25 [conn12] query archive.congressmen query: { congressman: { $regex: "^R" } } ntoreturn:1 nscanned:1332 nreturned:1 reslen:600 608ms
+Wed Dec 19 08:23:03 [conn13] insert archive.congressmen 141ms
+Wed Dec 19 08:24:31 [clientcursormon] mem (MB) res:12 virt:820 mapped:80
+Wed Dec 19 08:25:57 [conn13] end connection 127.0.0.1:45097
+Wed Dec 19 08:26:42 [initandlisten] connection accepted from 127.0.0.1:48061 #14
+Wed Dec 19 08:26:57 [conn12] dropDatabase archive
+Wed Dec 19 08:26:57 [conn12] removeJournalFiles
+Wed Dec 19 08:26:58 [conn12] command archive.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 reslen:58 1048ms
+Wed Dec 19 08:27:27 [initandlisten] connection accepted from 127.0.0.1:48064 #15
+Wed Dec 19 08:27:27 [conn14] end connection 127.0.0.1:48061
+Wed Dec 19 08:28:10 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 7ms
+Wed Dec 19 08:28:29 [conn12] command admin.$cmd command: { listDatabases: 1.0 } ntoreturn:1 reslen:124 115ms
+Wed Dec 19 08:28:47 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 08:28:47 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.03 secs
+Wed Dec 19 08:28:47 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 08:28:47 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.003 secs
+Wed Dec 19 08:28:47 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 08:28:47 [conn15] build index archive.congressmen { _id: 1 }
+Wed Dec 19 08:28:47 [conn15] build index done 0 records 0.041 secs
+Wed Dec 19 08:28:47 [conn15] insert archive.congressmen 387ms
+Wed Dec 19 08:28:47 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.147 secs
+Wed Dec 19 08:29:03 [conn12] query archive.congressmen ntoreturn:1 nscanned:1 nreturned:1 reslen:1138 102ms
+Wed Dec 19 08:29:32 [clientcursormon] mem (MB) res:12 virt:821 mapped:80
+Wed Dec 19 08:32:00 [conn12] query archive.congressmen query: { congressman: "Robert Menendez" } ntoreturn:1 nscanned:6 nreturned:1 reslen:787 626ms
+Wed Dec 19 08:33:23 [conn15] insert archive.congressmen 356ms
+Wed Dec 19 08:34:36 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 08:34:47 [conn15] insert archive.congressmen 1330ms
+Wed Dec 19 08:35:36 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 08:37:48 [conn15] insert archive.congressmen 593ms
+Wed Dec 19 08:39:49 [conn12] query archive.congressmen ntoreturn:1 nscanned:1 nreturned:1 reslen:1138 512ms
+Wed Dec 19 08:39:50 [conn12] command admin.$cmd command: { replSetGetStatus: 1, forShell: 1 } ntoreturn:1 reslen:76 101ms
+Wed Dec 19 08:40:36 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 08:45:38 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 08:50:38 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 08:55:39 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 08:58:16 [conn12] dropDatabase archive
+Wed Dec 19 08:58:16 [conn12] removeJournalFiles
+Wed Dec 19 08:58:16 [conn12] command archive.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 reslen:58 502ms
+Wed Dec 19 08:58:26 [conn15] end connection 127.0.0.1:48064
+Wed Dec 19 08:58:57 [conn12] command admin.$cmd command: { listDatabases: 1.0 } ntoreturn:1 reslen:124 330ms
+Wed Dec 19 08:58:58 [initandlisten] connection accepted from 127.0.0.1:48542 #16
+Wed Dec 19 08:59:01 [conn16] end connection 127.0.0.1:48542
+Wed Dec 19 09:00:32 [initandlisten] connection accepted from 127.0.0.1:48545 #17
+Wed Dec 19 09:00:39 [clientcursormon] mem (MB) res:7 virt:661 mapped:0
+Wed Dec 19 09:01:08 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 09:01:08 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.019 secs
+Wed Dec 19 09:01:08 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 09:01:09 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.164 secs
+Wed Dec 19 09:01:09 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 09:01:09 [conn17] build index archive.congressmen { _id: 1 }
+Wed Dec 19 09:01:09 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.202 secs
+Wed Dec 19 09:01:09 [conn17] build index done 0 records 0.12 secs
+Wed Dec 19 09:01:09 [conn17] insert archive.congressmen 1429ms
+Wed Dec 19 09:01:32 [initandlisten] connection accepted from 127.0.0.1:48566 #18
+Wed Dec 19 09:01:39 [clientcursormon] mem (MB) res:8 virt:821 mapped:80
+Wed Dec 19 09:02:14 [conn17] end connection 127.0.0.1:48545
+Wed Dec 19 09:02:16 [conn18] end connection 127.0.0.1:48566
+Wed Dec 19 09:02:27 [conn12] dropDatabase archive
+Wed Dec 19 09:02:27 [conn12] removeJournalFiles
+Wed Dec 19 09:02:27 [conn12] command archive.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 reslen:58 191ms
+Wed Dec 19 09:06:40 [clientcursormon] mem (MB) res:8 virt:661 mapped:0
+Wed Dec 19 09:11:40 [clientcursormon] mem (MB) res:8 virt:661 mapped:0
+Wed Dec 19 09:15:19 [conn12] end connection 127.0.0.1:45095
+Wed Dec 19 09:16:41 [clientcursormon] mem (MB) res:8 virt:661 mapped:0
+Wed Dec 19 09:20:35 [initandlisten] connection accepted from 127.0.0.1:48619 #19
+Wed Dec 19 09:20:36 [conn19] command admin.$cmd command: { whatsmyuri: 1 } ntoreturn:1 reslen:62 144ms
+Wed Dec 19 09:21:42 [clientcursormon] mem (MB) res:8 virt:661 mapped:0
+Wed Dec 19 09:23:43 [initandlisten] connection accepted from 127.0.0.1:48633 #20
+Wed Dec 19 09:24:23 [FileAllocator] allocating new datafile db/archive.ns, filling with zeroes...
+Wed Dec 19 09:24:23 [FileAllocator] done allocating datafile db/archive.ns, size: 16MB,  took 0.015 secs
+Wed Dec 19 09:24:23 [FileAllocator] allocating new datafile db/archive.0, filling with zeroes...
+Wed Dec 19 09:24:23 [FileAllocator] done allocating datafile db/archive.0, size: 64MB,  took 0.003 secs
+Wed Dec 19 09:24:23 [FileAllocator] allocating new datafile db/archive.1, filling with zeroes...
+Wed Dec 19 09:24:23 [FileAllocator] done allocating datafile db/archive.1, size: 128MB,  took 0.002 secs
+Wed Dec 19 09:24:23 [conn20] build index archive.congressmen { _id: 1 }
+Wed Dec 19 09:24:24 [conn20] build index done 0 records 0.045 secs
+Wed Dec 19 09:24:24 [conn20] insert archive.congressmen 382ms
+Wed Dec 19 09:24:43 [clientcursormon] mem (MB) res:8 virt:821 mapped:80
+Wed Dec 19 09:26:15 [conn20] insert archive.congressmen 697ms
+Wed Dec 19 09:26:45 [clientcursormon] mem (MB) res:9 virt:821 mapped:80
+Wed Dec 19 09:28:27 [conn20] insert archive.congressmen 339ms
+Wed Dec 19 09:31:46 [clientcursormon] mem (MB) res:9 virt:821 mapped:80
+Wed Dec 19 09:35:32 [conn20] insert archive.congressmen 175ms
+Wed Dec 19 09:36:47 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 09:41:48 [clientcursormon] mem (MB) res:4 virt:821 mapped:80
+Wed Dec 19 09:42:09 [conn20] insert archive.congressmen 372ms
+Wed Dec 19 09:42:48 [clientcursormon] mem (MB) res:5 virt:821 mapped:80
+Wed Dec 19 09:45:16 [conn20] insert archive.congressmen 239ms
+Wed Dec 19 09:46:48 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 09:51:48 [clientcursormon] mem (MB) res:5 virt:821 mapped:80
+Wed Dec 19 09:56:49 [clientcursormon] mem (MB) res:5 virt:821 mapped:80
+Wed Dec 19 09:58:41 [conn20] insert archive.congressmen 367ms
+Wed Dec 19 09:58:51 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 10:03:52 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 10:05:00 [conn20] insert archive.congressmen 160ms
+Wed Dec 19 10:06:08 [conn20] insert archive.congressmen 128ms
+Wed Dec 19 10:07:10 [conn20] insert archive.congressmen 251ms
+Wed Dec 19 10:08:52 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 10:13:53 [clientcursormon] mem (MB) res:6 virt:821 mapped:80
+Wed Dec 19 10:15:40 [conn20] insert archive.congressmen 562ms
+Wed Dec 19 10:15:55 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 10:16:41 [conn20] insert archive.congressmen 259ms
+Wed Dec 19 10:20:55 [clientcursormon] mem (MB) res:7 virt:821 mapped:80
+Wed Dec 19 10:21:56 [clientcursormon] mem (MB) res:8 virt:821 mapped:80
+Wed Dec 19 10:26:52 [conn20] insert archive.congressmen 105ms
+Wed Dec 19 10:26:58 [clientcursormon] mem (MB) res:8 virt:821 mapped:80
+Wed Dec 19 10:27:09 [conn20] insert archive.congressmen 153ms
+Wed Dec 19 10:28:05 [conn19] command archive.$cmd command: { distinct: "congressmen", key: "congressman", query: {} } ntoreturn:1 reslen:206 634ms
+Wed Dec 19 10:29:15 [conn19] warning: ClientCursor::yield can't unlock b/c of recursive lock ns: archive.system.js top: { opid: 12652, active: true, lockType: "read", waitingForLock: false, secs_running: 0, op: "query", ns: "archive", query: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } }, client: "127.0.0.1:48619", desc: "conn", threadId: "0x7fdf5c83f700", connectionId: 19, numYields: 0 }
+Wed Dec 19 10:29:17 [conn19] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 2945ms
+Wed Dec 19 10:29:30 [conn19] end connection 127.0.0.1:48619
+Wed Dec 19 10:29:51 [initandlisten] connection accepted from 127.0.0.1:50316 #21
+Wed Dec 19 10:29:51 [conn21] command admin.$cmd command: { whatsmyuri: 1 } ntoreturn:1 reslen:62 196ms
+Wed Dec 19 10:29:59 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 10:30:04 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 250ms
+Wed Dec 19 10:31:24 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 1022ms
+Wed Dec 19 10:31:44 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 141ms
+Wed Dec 19 10:32:00 [clientcursormon] mem (MB) res:17 virt:837 mapped:80
+Wed Dec 19 10:35:01 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 646ms
+Wed Dec 19 10:36:56 [conn20] insert archive.congressmen 106ms
+Wed Dec 19 10:37:02 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 10:37:30 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 1127ms
+Wed Dec 19 10:38:02 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 10:43:03 [clientcursormon] mem (MB) res:17 virt:837 mapped:80
+Wed Dec 19 10:47:32 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:337 291ms
+Wed Dec 19 10:48:04 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 10:53:05 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 10:58:07 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 11:03:07 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 11:08:07 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 11:13:08 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:17:12 [conn20] insert archive.congressmen 320ms
+Wed Dec 19 11:18:09 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:23:10 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:27:31 [conn20] insert archive.congressmen 139ms
+Wed Dec 19 11:28:10 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:33:11 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:38:11 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:43:11 [clientcursormon] mem (MB) res:15 virt:837 mapped:80
+Wed Dec 19 11:44:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 11:44:11 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:441 1566ms
+Wed Dec 19 11:49:11 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 11:54:11 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 11:59:11 [clientcursormon] mem (MB) res:18 virt:837 mapped:80
+Wed Dec 19 12:04:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:09:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:14:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:19:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:24:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 12:29:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:34:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:39:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:44:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:49:11 [clientcursormon] mem (MB) res:19 virt:837 mapped:80
+Wed Dec 19 12:54:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 12:59:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:04:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:09:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:14:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:19:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:24:11 [clientcursormon] mem (MB) res:20 virt:837 mapped:80
+Wed Dec 19 13:29:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:34:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:39:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:44:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:49:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:54:11 [clientcursormon] mem (MB) res:21 virt:837 mapped:80
+Wed Dec 19 13:59:11 [clientcursormon] mem (MB) res:22 virt:837 mapped:80
+Wed Dec 19 14:04:11 [clientcursormon] mem (MB) res:22 virt:837 mapped:80
+Wed Dec 19 14:09:11 [clientcursormon] mem (MB) res:22 virt:837 mapped:80
+Wed Dec 19 14:14:12 [clientcursormon] mem (MB) res:22 virt:837 mapped:80
+Wed Dec 19 14:19:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:24:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:29:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:34:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:39:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:44:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:49:12 [clientcursormon] mem (MB) res:23 virt:837 mapped:80
+Wed Dec 19 14:54:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 14:59:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 15:04:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 15:09:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 15:14:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 15:19:12 [clientcursormon] mem (MB) res:24 virt:837 mapped:80
+Wed Dec 19 15:24:12 [clientcursormon] mem (MB) res:25 virt:837 mapped:80
+Wed Dec 19 15:29:12 [clientcursormon] mem (MB) res:25 virt:837 mapped:80
+Wed Dec 19 15:34:12 [clientcursormon] mem (MB) res:25 virt:837 mapped:80
+Wed Dec 19 15:39:12 [clientcursormon] mem (MB) res:25 virt:837 mapped:80
+Wed Dec 19 15:44:12 [clientcursormon] mem (MB) res:25 virt:837 mapped:80
+Wed Dec 19 15:49:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 15:54:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 15:59:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 16:04:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 16:09:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 16:14:12 [clientcursormon] mem (MB) res:26 virt:837 mapped:80
+Wed Dec 19 16:19:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:24:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:29:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:34:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:39:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:44:12 [clientcursormon] mem (MB) res:27 virt:837 mapped:80
+Wed Dec 19 16:49:12 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 16:54:12 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 16:59:12 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 17:04:12 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 17:09:12 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 17:14:13 [clientcursormon] mem (MB) res:28 virt:837 mapped:80
+Wed Dec 19 17:19:13 [clientcursormon] mem (MB) res:29 virt:837 mapped:80
+Wed Dec 19 17:24:13 [clientcursormon] mem (MB) res:29 virt:837 mapped:80
+Wed Dec 19 17:29:13 [clientcursormon] mem (MB) res:29 virt:837 mapped:80
+Wed Dec 19 17:34:13 [clientcursormon] mem (MB) res:29 virt:837 mapped:80
+Wed Dec 19 17:39:13 [clientcursormon] mem (MB) res:29 virt:837 mapped:80
+Wed Dec 19 17:44:13 [clientcursormon] mem (MB) res:30 virt:837 mapped:80
+Wed Dec 19 17:49:13 [clientcursormon] mem (MB) res:30 virt:837 mapped:80
+Wed Dec 19 17:54:13 [clientcursormon] mem (MB) res:30 virt:837 mapped:80
+Wed Dec 19 17:59:13 [clientcursormon] mem (MB) res:30 virt:837 mapped:80
+Wed Dec 19 18:04:13 [clientcursormon] mem (MB) res:30 virt:837 mapped:80
+Wed Dec 19 18:09:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:14:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:19:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:24:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:29:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:34:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:39:13 [clientcursormon] mem (MB) res:31 virt:837 mapped:80
+Wed Dec 19 18:44:13 [clientcursormon] mem (MB) res:32 virt:837 mapped:80
+Wed Dec 19 18:49:13 [clientcursormon] mem (MB) res:32 virt:837 mapped:80
+Wed Dec 19 18:54:13 [clientcursormon] mem (MB) res:32 virt:837 mapped:80
+Wed Dec 19 18:59:13 [clientcursormon] mem (MB) res:32 virt:837 mapped:80
+Wed Dec 19 19:04:13 [clientcursormon] mem (MB) res:32 virt:837 mapped:80
+Wed Dec 19 19:09:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:14:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:19:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:24:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:29:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:34:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:39:13 [clientcursormon] mem (MB) res:33 virt:837 mapped:80
+Wed Dec 19 19:44:13 [clientcursormon] mem (MB) res:34 virt:837 mapped:80
+Wed Dec 19 19:49:13 [clientcursormon] mem (MB) res:34 virt:837 mapped:80
+Wed Dec 19 19:54:13 [clientcursormon] mem (MB) res:34 virt:837 mapped:80
+Wed Dec 19 19:59:13 [clientcursormon] mem (MB) res:34 virt:837 mapped:80
+Wed Dec 19 20:04:13 [clientcursormon] mem (MB) res:34 virt:837 mapped:80
+Wed Dec 19 20:09:13 [clientcursormon] mem (MB) res:35 virt:837 mapped:80
+Wed Dec 19 20:14:13 [clientcursormon] mem (MB) res:35 virt:837 mapped:80
+Wed Dec 19 20:19:13 [clientcursormon] mem (MB) res:35 virt:837 mapped:80
+Wed Dec 19 20:24:13 [clientcursormon] mem (MB) res:35 virt:837 mapped:80
+Wed Dec 19 20:29:14 [clientcursormon] mem (MB) res:35 virt:837 mapped:80
+Wed Dec 19 20:31:48 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:864 794ms
+Wed Dec 19 20:32:14 [clientcursormon] mem (MB) res:55 virt:846 mapped:80
+Wed Dec 19 20:37:14 [clientcursormon] mem (MB) res:55 virt:846 mapped:80
+Wed Dec 19 20:42:14 [clientcursormon] mem (MB) res:55 virt:846 mapped:80
+Wed Dec 19 20:47:14 [clientcursormon] mem (MB) res:55 virt:846 mapped:80
+Wed Dec 19 20:52:14 [clientcursormon] mem (MB) res:55 virt:846 mapped:80
+Wed Dec 19 20:54:28 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:975 485ms
+Wed Dec 19 20:57:14 [clientcursormon] mem (MB) res:56 virt:847 mapped:80
+Wed Dec 19 21:02:14 [clientcursormon] mem (MB) res:57 virt:847 mapped:80
+Wed Dec 19 21:02:38 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1027 338ms
+Wed Dec 19 21:07:14 [clientcursormon] mem (MB) res:57 virt:847 mapped:80
+Wed Dec 19 21:12:14 [clientcursormon] mem (MB) res:57 virt:847 mapped:80
+Wed Dec 19 21:16:13 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1082 344ms
+Wed Dec 19 21:16:14 [clientcursormon] mem (MB) res:81 virt:848 mapped:80
+Wed Dec 19 21:21:14 [clientcursormon] mem (MB) res:58 virt:848 mapped:80
+Wed Dec 19 21:26:14 [clientcursormon] mem (MB) res:58 virt:848 mapped:80
+Wed Dec 19 21:31:14 [clientcursormon] mem (MB) res:58 virt:848 mapped:80
+Wed Dec 19 21:36:14 [clientcursormon] mem (MB) res:58 virt:848 mapped:80
+Wed Dec 19 21:41:14 [clientcursormon] mem (MB) res:59 virt:848 mapped:80
+Wed Dec 19 21:45:00 [conn21] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1082 394ms
+Wed Dec 19 21:46:14 [clientcursormon] mem (MB) res:60 virt:849 mapped:80
+Wed Dec 19 21:51:14 [clientcursormon] mem (MB) res:60 virt:849 mapped:80
+Wed Dec 19 21:51:48 [initandlisten] connection accepted from 127.0.0.1:39172 #22
+Wed Dec 19 21:51:49 [conn22] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 897ms
+Wed Dec 19 21:51:49 [conn22] end connection 127.0.0.1:39172
+Wed Dec 19 21:52:14 [initandlisten] connection accepted from 127.0.0.1:39184 #23
+Wed Dec 19 21:52:14 [clientcursormon] mem (MB) res:95 virt:849 mapped:80
+Wed Dec 19 21:52:14 [conn23] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 437ms
+Wed Dec 19 21:52:14 [conn23] end connection 127.0.0.1:39184
+Wed Dec 19 21:57:14 [clientcursormon] mem (MB) res:61 virt:849 mapped:80
+Wed Dec 19 22:00:19 [conn21] end connection 127.0.0.1:50316
+Wed Dec 19 22:02:14 [clientcursormon] mem (MB) res:61 virt:849 mapped:80
+Wed Dec 19 22:02:14 [initandlisten] connection accepted from 127.0.0.1:39437 #24
+Wed Dec 19 22:02:19 [conn24] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 442ms
+Wed Dec 19 22:05:01 [conn24] end connection 127.0.0.1:39437
+Wed Dec 19 22:07:14 [clientcursormon] mem (MB) res:62 virt:849 mapped:80
+Wed Dec 19 22:11:46 [initandlisten] connection accepted from 127.0.0.1:39697 #25
+Wed Dec 19 22:11:53 [conn25] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 490ms
+Wed Dec 19 22:12:14 [clientcursormon] mem (MB) res:62 virt:850 mapped:80
+Wed Dec 19 22:15:01 [initandlisten] connection accepted from 127.0.0.1:39790 #26
+Wed Dec 19 22:15:01 [conn26] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 663ms
+Wed Dec 19 22:15:02 [conn26] end connection 127.0.0.1:39790
+Wed Dec 19 22:16:01 [initandlisten] connection accepted from 127.0.0.1:39817 #27
+Wed Dec 19 22:16:01 [conn27] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 614ms
+Wed Dec 19 22:16:01 [conn27] end connection 127.0.0.1:39817
+Wed Dec 19 22:16:14 [clientcursormon] mem (MB) res:88 virt:850 mapped:80
+Wed Dec 19 22:17:02 [initandlisten] connection accepted from 127.0.0.1:39844 #28
+Wed Dec 19 22:17:02 [conn28] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 483ms
+Wed Dec 19 22:17:02 [conn28] end connection 127.0.0.1:39844
+Wed Dec 19 22:18:01 [initandlisten] connection accepted from 127.0.0.1:39870 #29
+Wed Dec 19 22:18:02 [conn29] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 500ms
+Wed Dec 19 22:18:02 [conn29] end connection 127.0.0.1:39870
+Wed Dec 19 22:19:01 [initandlisten] connection accepted from 127.0.0.1:39898 #30
+Wed Dec 19 22:19:02 [conn30] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 519ms
+Wed Dec 19 22:19:02 [conn30] end connection 127.0.0.1:39898
+Wed Dec 19 22:20:01 [initandlisten] connection accepted from 127.0.0.1:39925 #31
+Wed Dec 19 22:20:01 [conn31] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 486ms
+Wed Dec 19 22:20:01 [conn31] end connection 127.0.0.1:39925
+Wed Dec 19 22:21:02 [initandlisten] connection accepted from 127.0.0.1:39952 #32
+Wed Dec 19 22:21:02 [conn32] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 517ms
+Wed Dec 19 22:21:02 [conn32] end connection 127.0.0.1:39952
+Wed Dec 19 22:21:14 [clientcursormon] mem (MB) res:63 virt:850 mapped:80
+Wed Dec 19 22:22:01 [initandlisten] connection accepted from 127.0.0.1:39977 #33
+Wed Dec 19 22:22:02 [conn33] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 509ms
+Wed Dec 19 22:22:02 [conn33] end connection 127.0.0.1:39977
+Wed Dec 19 22:22:14 [clientcursormon] mem (MB) res:88 virt:850 mapped:80
+Wed Dec 19 22:23:01 [initandlisten] connection accepted from 127.0.0.1:40003 #34
+Wed Dec 19 22:23:02 [conn34] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 480ms
+Wed Dec 19 22:23:02 [conn34] end connection 127.0.0.1:40003
+Wed Dec 19 22:24:01 [initandlisten] connection accepted from 127.0.0.1:40030 #35
+Wed Dec 19 22:24:01 [conn35] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 494ms
+Wed Dec 19 22:24:01 [conn35] end connection 127.0.0.1:40030
+Wed Dec 19 22:25:02 [initandlisten] connection accepted from 127.0.0.1:40053 #36
+Wed Dec 19 22:25:02 [conn36] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 516ms
+Wed Dec 19 22:25:02 [conn36] end connection 127.0.0.1:40053
+Wed Dec 19 22:26:01 [initandlisten] connection accepted from 127.0.0.1:40077 #37
+Wed Dec 19 22:26:02 [conn37] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 483ms
+Wed Dec 19 22:26:02 [conn37] end connection 127.0.0.1:40077
+Wed Dec 19 22:27:01 [initandlisten] connection accepted from 127.0.0.1:40102 #38
+Wed Dec 19 22:27:02 [conn38] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 508ms
+Wed Dec 19 22:27:02 [conn38] end connection 127.0.0.1:40102
+Wed Dec 19 22:27:14 [clientcursormon] mem (MB) res:63 virt:850 mapped:80
+Wed Dec 19 22:27:45 [conn25] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 404ms
+Wed Dec 19 22:28:01 [initandlisten] connection accepted from 127.0.0.1:40127 #39
+Wed Dec 19 22:28:01 [conn39] command archive.$cmd command: { group: { key: { congressman: true }, initial: { sum: 0.0 }, ns: "congressmen", $reduce: function (doc, prev) {
+    prev.sum += 1;
+} } } ntoreturn:1 reslen:1132 496ms
+Wed Dec 19 22:28:01 [conn39] end connection 127.0.0.1:40127
+Wed Dec 19 22:28:14 [clientcursormon] mem (MB) res:89 virt:850 mapped:80
