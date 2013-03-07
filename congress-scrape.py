@@ -26,14 +26,15 @@ def main():
 		i = 1
 		while i:
 			time.sleep(random.randint(1,3)) #let's not be rude
-			payload = {'rows':1, 'start':i, 'output':'json', 'time':'20090604-20130101', 'q':member} #consider &network eventually
+			payload = {'rows':10, 'start':i, 'output':'json', 'time':'20090604-20130101', 'q':member} #consider &network eventually
 			r = requests.get(url, params=payload)
 			if r.json():
-				post = r.json()[0]
-				post['congressman'] = member
-				post['rownum'] = i
-				collection.insert(post)
-				i += 1
+				for el in r.json():
+					post = el
+					post['congressman'] = member
+					post['rownum'] = i
+					collection.insert(post)
+					i += 10
 			else:
 				i = False
 				
